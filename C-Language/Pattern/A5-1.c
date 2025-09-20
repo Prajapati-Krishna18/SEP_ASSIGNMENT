@@ -41,8 +41,8 @@ int main(){
 
 // 7. Right-angled Triangle — Stars (increasing) //
     for(int i=1;i<=5;i++){
-        for(int j=1;j<=i;j++){
-            printf("*",j);
+        for(int j=1;j<=n;j++){
+            printf("*");
         }
         printf("\n");
     }
@@ -80,10 +80,13 @@ int main(){
     for(int i=1;i<=p;i++){
         for(int j=1;j<=p-i;j++){
             printf(" ");
+            if(i<=j){
+                printf("%d",j);
+            }
         }
-        for(int k=1;k<=i;k++){
-            printf("%d",k);
-        }
+        // for(int k=1;k<=i;k++){
+        //     printf("%d",k);
+        // }
         printf("\n");
     }
     
