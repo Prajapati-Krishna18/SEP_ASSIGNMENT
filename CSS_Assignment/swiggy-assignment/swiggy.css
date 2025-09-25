@@ -1,0 +1,61 @@
+*{
+
+}
+.main{
+    border: 1px solid black;
+    width: 900px;
+    height:900px;
+    justify-self: center;
+}
+.nav{
+    background-color: blue;
+    
+    border-radius: 15%;
+}
+.NAV{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.first p{
+    color: blue;
+    font-weight: 900;
+}
+.searchbar{
+    /* border: 1px solid black; */
+
+    width: auto;
+    height: 35px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(141, 145, 147);
+    border-radius: 15px;
+    display: flex;
+}
+.searchbar input{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.searchbar img{
+    height: 100px;
+    justify-content: end;
+}
+
+.glass{
+
+}
+
+.offer img{
+    margin-top: 15px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+.products img{
+    border: 1px solid rgb(234, 228, 228);
+    border-radius: 15px;
+    width: 100px;
+    margin: 10px;
+}
