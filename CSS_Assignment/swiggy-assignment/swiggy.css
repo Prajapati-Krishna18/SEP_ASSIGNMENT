@@ -51,6 +51,7 @@
 .products{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .products img{
